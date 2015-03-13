@@ -8,6 +8,7 @@
 (depends-on "company")
 (depends-on "coffee-mode")
 (depends-on "csharp-mode")
+(depends-on "csv-nav")
 (depends-on "engine-mode")
 (depends-on "exec-path-from-shell")
 (depends-on "emmet-mode")
