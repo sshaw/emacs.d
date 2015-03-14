@@ -1,3 +1,6 @@
+(require 'rvm)
+(rvm-use-default)
+
 (eval-after-load 'rspec-mode
   '(rspec-install-snippets))
 
@@ -7,6 +10,9 @@
 		  '("rb" . "*.rb *.rake *.thor"))
      (add-to-list 'grep-files-aliases
 		  '("rhtml" . "*.erb *.haml *.slim"))))
+
+(add-hook 'ruby-mode-hook
+          (lambda () (rvm-activate-corresponding-ruby)))
 
 (add-to-list 'auto-mode-alist
 	     '("\\.\\(?:gemspec\\|irbrc\\|gemrc\\|pryrc\\|rake\\|rb\\|ru\\|thor\\)\\'" . ruby-mode))
