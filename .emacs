@@ -23,3 +23,4 @@
 ;; Set prog-mode only?
 (global-set-key (kbd "RET") 'newline-and-indent)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
+(global-set-key (kbd "M-s <mouse-1>") 'browse-url-at-mouse)
