@@ -17,6 +17,8 @@
 (setq inhibit-startup-message t
       initial-scratch-message "")
 
+(setq safe-local-variable-values '((encoding . utf-8)))
+
 ;; For quoted insert
 (setq read-quoted-char-radix 10)
 
