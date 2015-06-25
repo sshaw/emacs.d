@@ -17,6 +17,8 @@
 (setq inhibit-startup-message t
       initial-scratch-message "")
 
+(setq kill-do-not-save-duplicates t)
+
 (setq safe-local-variable-values '((encoding . utf-8)))
 
 ;; For quoted insert
