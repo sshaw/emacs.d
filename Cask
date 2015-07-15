@@ -27,6 +27,7 @@
 (depends-on "markdown-mode")
 (depends-on "mmm-mode")
 (depends-on "pivotal-tracker")
+(depends-on "php-mode")
 (depends-on "rainbow-delimiters")
 (depends-on "restclient")
 (depends-on "robe")
