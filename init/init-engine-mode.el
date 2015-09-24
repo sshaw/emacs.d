@@ -6,6 +6,7 @@
 (defengine duckduckgo "https://duckduckgo.com/?q=%s" :keybinding "d")
 (defengine ebay "http://www.ebay.com/sch/i.html?_nkw=%s" :keybinding "e")
 (defengine github "http://github.com/search?q=%s" :keybinding "g")
+(defengine npm "https://www.npmjs.com/search?q=%s" :keybinding "n")
 (defengine metacpan "https://metacpan.org/search?q=%s" :keybinding "m")
 (defengine rubygems "http://rubygems.org/search?utf8=%%E2%9C%93&query=%s" :keybinding "r")
 (defengine wikipedia "http://en.wikipedia.org/w/index.php?search=%s" :keybinding "w")
