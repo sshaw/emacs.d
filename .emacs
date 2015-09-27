@@ -7,6 +7,7 @@
   (load-file path))
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'prog-mode-hook 'hs-minor-mode)
 
 (put 'narrow-to-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
