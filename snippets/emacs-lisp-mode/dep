@@ -1,0 +1,5 @@
+# -*- mode: snippet; -*-
+# name: (depends-on "package")
+# key: dep
+# --
+(depends-on "$1")$0
