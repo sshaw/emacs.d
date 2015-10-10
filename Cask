@@ -34,7 +34,7 @@
 (depends-on "restclient")
 (depends-on "robe")
 (depends-on "rspec-mode")
-(depends-on "rspec-mode")
+(depends-on "ruby-factory")
 (depends-on "rubocop")
 (depends-on "ruby-electric")
 (depends-on "rvm")
