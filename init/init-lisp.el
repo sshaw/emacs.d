@@ -5,3 +5,5 @@
 	  (lambda ()
 	    (rainbow-delimiters-mode)
 	    (eldoc-mode)))
+
+(add-hook 'ielm-mode-hook 'eldoc-mode)
