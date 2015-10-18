@@ -1,5 +1,2 @@
-(add-hook 'text-mode-hook
-	  (lambda () (column-number-mode)))
-
-(add-hook 'prod-mode-hook
-	  (lambda () (column-number-mode)))
+(add-hook 'text-mode-hook 'column-number-mode)
+(add-hook 'prog-mode-hook 'column-number-mode)
