@@ -19,6 +19,7 @@
 (depends-on "git-link")
 (depends-on "git-timemachine")
 (depends-on "groovy-mode")
+(depends-on "hlinum")
 (depends-on "haml-mode")
 (depends-on "handlebars-mode")
 (depends-on "inf-ruby")
@@ -50,3 +51,4 @@
 (depends-on "writegood-mode")
 (depends-on "yaml-mode")
 (depends-on "yasnippet")
+(depends-on "zoom-frm")
