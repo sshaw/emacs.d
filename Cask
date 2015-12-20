@@ -10,6 +10,7 @@
 (depends-on "company")
 (depends-on "csharp-mode")
 (depends-on "csv-nav")
+(depends-on "dockerfile-mode")
 ;;(depends-on "emacs-rails" :git "https://github.com/remvee/emacs-rails.git")
 (depends-on "emmet-mode")
 (depends-on "engine-mode")
