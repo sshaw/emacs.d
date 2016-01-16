@@ -55,4 +55,3 @@
 (depends-on "writegood-mode")
 (depends-on "yaml-mode")
 (depends-on "yasnippet")
-(depends-on "zoom-frm")
