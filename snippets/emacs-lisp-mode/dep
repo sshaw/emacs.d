@@ -2,4 +2,5 @@
 # name: (depends-on "package")
 # key: dep
 # --
-(depends-on "$1")$0
+(depends-on "$1")
+$0
