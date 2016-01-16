@@ -2,10 +2,6 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 
-(when (memq window-system '(mac ns))
-  (exec-path-from-shell-initialize)
-  (setq mac-option-modifier 'meta))
-
 (setq x-select-enable-clipboard t)
 (setq save-interprogram-paste-before-kill t)
 

@@ -16,6 +16,7 @@
 (depends-on "engine-mode")
 (depends-on "exec-path-from-shell")
 (depends-on "flycheck")
+(depends-on "fullframe")
 (depends-on "gist")
 (depends-on "git-link")
 (depends-on "git-timemachine")

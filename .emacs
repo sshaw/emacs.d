@@ -27,7 +27,10 @@
 ;; For quoted insert
 (setq read-quoted-char-radix 10)
 
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize)
+  (setq mac-option-modifier 'meta))
+
 ;; Set prog-mode only?
 (global-set-key (kbd "RET") 'newline-and-indent)
-(global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-set-key (kbd "M-s <mouse-1>") 'browse-url-at-mouse)
