@@ -15,6 +15,7 @@
 (depends-on "emmet-mode")
 (depends-on "engine-mode")
 (depends-on "exec-path-from-shell")
+(depends-on "fireplace")
 (depends-on "flycheck")
 (depends-on "fullframe")
 (depends-on "gist")
