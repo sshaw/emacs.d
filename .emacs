@@ -7,6 +7,7 @@
   (load-file path))
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+(add-hook 'after-init-hook 'global-flycheck-mode)
 
 (put 'narrow-to-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
