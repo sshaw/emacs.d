@@ -14,7 +14,11 @@
 (add-hook 'ruby-mode-hook
           (lambda ()
 	    (rvm-activate-corresponding-ruby)
-	    (ruby-factory-mode)))
+	    (ruby-factory-mode)
+
+	    (when (and (functionp 'flycheck-locate-config-file)
+		       (not (flycheck-locate-config-file flycheck-rubocoprc "ruby-rubocop")))
+	      (add-to-list 'flycheck-disabled-checkers 'ruby-rubocop))))
 
 (add-to-list 'auto-mode-alist
 	     '("\\.\\(?:cap\\|gemspec\\|irbrc\\|gemrc\\|pryrc\\|rake\\|rb\\|ru\\|thor\\)\\'" . ruby-mode))
