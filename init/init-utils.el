@@ -15,3 +15,11 @@ basename \"scratch\"."
   (interactive "MExtension: ")
   (find-file (concat temporary-file-directory "scratch"
 		     (if (string-match "\\w" ext) (concat "." ext)))))
+
+(defun decode-url (url)
+  "Decode a URL and add it to the kill ring."
+  (interactive "sURL: ")
+  (when url
+    (let ((decoded (url-unhex-string url)))
+      (kill-new decoded)
+      (message decoded))))
