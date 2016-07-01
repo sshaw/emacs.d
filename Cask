@@ -21,6 +21,7 @@
 (depends-on "gist")
 (depends-on "git-link")
 (depends-on "git-timemachine")
+(depends-on "github-notifier")
 (depends-on "go-mode")
 (depends-on "groovy-mode")
 (depends-on "hlinum")

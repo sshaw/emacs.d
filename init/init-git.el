@@ -1,3 +1,4 @@
+(setq github-notifier-update-interval 320)
 ;; Don't prompt about unsaved buffers
 (setq magit-save-repository-buffers nil)
 
