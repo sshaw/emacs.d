@@ -18,6 +18,7 @@
 (depends-on "fireplace")
 (depends-on "flycheck")
 (depends-on "fullframe")
+(depends-on "gitconfig-mode")
 (depends-on "gist")
 (depends-on "git-link")
 (depends-on "git-timemachine")
