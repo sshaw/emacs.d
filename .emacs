@@ -9,6 +9,11 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (add-hook 'after-init-hook 'global-flycheck-mode)
 
+;; Don't accidentally kill *scratch*
+(add-to-list 'kill-buffer-query-functions
+	     (lambda ()
+	       (when (not (string= (buffer-name (current-buffer)) "*scratch*")) t)))
+
 (put 'narrow-to-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
