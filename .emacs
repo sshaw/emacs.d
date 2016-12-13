@@ -22,6 +22,8 @@
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
+(setq-default indent-tabs-mode nil)
+
 (setq inhibit-startup-message t
       initial-scratch-message "")
 
