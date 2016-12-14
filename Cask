@@ -8,6 +8,7 @@
 (depends-on "cask")
 (depends-on "coffee-mode")
 (depends-on "company")
+(depends-on "copy-as-format")
 (depends-on "csharp-mode")
 (depends-on "csv-nav")
 (depends-on "dockerfile-mode")
