@@ -1,4 +1,5 @@
 (add-hook 'prog-mode-hook 'column-number-mode)
+(add-hook 'prog-mode-hook 'dumb-jump-mode)
 (add-hook 'prog-mode-hook 'hs-minor-mode)
 (add-hook 'prog-mode-hook
 	  (lambda () (abbrev-mode)))
