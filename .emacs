@@ -1,6 +1,10 @@
 (add-to-list 'load-path "~/.emacs.d/site-lisp")
 
-(require 'cask "~/.cask/cask.el")
+(require 'cask
+	 (if (file-exists-p "~/.cask/cask.el")
+	     "~/.cask/cask.el"
+	   ;; Homebrew Cask installation
+	   "/usr/local/share/emacs/site-lisp/cask/cask.el"))
 (cask-initialize)
 
 (dolist (path (directory-files "~/.emacs.d/init" t "\\.elc?\\'"))
