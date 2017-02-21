@@ -18,6 +18,8 @@
 	     (lambda ()
 	       (when (not (string= (buffer-name (current-buffer)) "*scratch*")) t)))
 
+(add-to-list 'completion-ignored-extensions ".sqlite3")
+
 (put 'narrow-to-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
