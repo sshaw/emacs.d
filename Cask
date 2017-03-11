@@ -39,7 +39,6 @@
 (depends-on "markdown-mode")
 (depends-on "mmm-mode")
 (depends-on "nameless")
-(depends-on "pivotal-tracker")
 (depends-on "php-mode")
 (depends-on "rainbow-delimiters")
 (depends-on "robe")
