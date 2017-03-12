@@ -39,6 +39,8 @@
 (depends-on "markdown-mode")
 (depends-on "mmm-mode")
 (depends-on "nameless")
+(depends-on "ox-gfm")
+(depends-on "ox-reveal")
 (depends-on "php-mode")
 (depends-on "rainbow-delimiters")
 (depends-on "robe")
