@@ -7,3 +7,5 @@
 (add-hook 'web-mode-hook
 	  (lambda ()
 	    (local-set-key (kbd "C-c b") 'browse-url-of-buffer)))
+
+(setq web-mode-enable-engine-detection t)
