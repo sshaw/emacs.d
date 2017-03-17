@@ -37,6 +37,9 @@
 
 (setq safe-local-variable-values '((encoding . utf-8)))
 
+;; Don't wake the wife & kids...
+(setq ring-bell-function 'ignore)
+
 ;; For quoted insert
 (setq read-quoted-char-radix 10)
 

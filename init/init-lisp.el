@@ -6,3 +6,5 @@
 (add-hook 'emacs-lisp-mode-hook 'rainbow-delimiters-mode)
 
 (add-hook 'ielm-mode-hook 'eldoc-mode)
+
+(setq ielm-noisy nil)
