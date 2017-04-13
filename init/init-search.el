@@ -4,3 +4,6 @@
 
 ;; Default binding calls set-fill-column
 (global-set-key (kbd "C-x f") 'find-dired)
+
+(setq ffap-require-prefix t)
+(ffap-bindings)
