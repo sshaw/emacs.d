@@ -15,6 +15,7 @@
 (depends-on "dockerfile-mode")
 ;;(depends-on "emacs-rails" :git "https://github.com/remvee/emacs-rails.git")
 (depends-on "emmet-mode")
+(depends-on "emojify")
 (depends-on "engine-mode")
 (depends-on "exec-path-from-shell")
 (depends-on "fireplace")
