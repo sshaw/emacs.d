@@ -13,6 +13,8 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (add-hook 'after-init-hook 'global-flycheck-mode)
 (add-hook 'after-init-hook 'global-emojify-mode)
+;; ascii is a bit too invasive
+(emojify-set-emoji-styles '(unicode github))
 
 ;; Don't accidentally kill *scratch*
 (add-to-list 'kill-buffer-query-functions
