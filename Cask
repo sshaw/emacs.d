@@ -32,6 +32,7 @@
 (depends-on "haml-mode")
 (depends-on "handlebars-mode")
 (depends-on "httprepl")
+(depends-on "ignoramus")
 (depends-on "inf-ruby")
 (depends-on "know-your-http-well")
 (depends-on "less-css-mode")

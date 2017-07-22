@@ -7,6 +7,10 @@
 	   "/usr/local/share/emacs/site-lisp/cask/cask.el"))
 (cask-initialize)
 
+(require 'dired-x)
+(require 'ignoramus)
+(ignoramus-setup)
+
 (dolist (path (directory-files "~/.emacs.d/init" t "\\.elc?\\'"))
   (load-file path))
 
