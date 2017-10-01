@@ -9,7 +9,9 @@
      (add-to-list 'grep-files-aliases
 		  '("rb" . "*.rb *.rake *.thor"))
      (add-to-list 'grep-files-aliases
-		  '("rhtml" . "*.erb *.haml *.slim"))))
+		  '("rhtm" . "*.erb *.haml *.slim"))
+     (add-to-list 'grep-files-aliases
+		  '("rhtmjs" . "*.erb *.haml *.slim *.js *.js.* *.jsx"))))
 
 (add-hook 'ruby-mode-hook
           (lambda ()
