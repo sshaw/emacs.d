@@ -27,6 +27,7 @@
 (depends-on "git-timemachine")
 (depends-on "github-notifier")
 (depends-on "go-mode")
+(depends-on "google-maps")
 (depends-on "groovy-mode")
 (depends-on "hlinum")
 (depends-on "haml-mode")
