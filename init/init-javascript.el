@@ -3,3 +3,6 @@
 
 (add-to-list 'auto-mode-alist
 	     '("\\.coffee\\.erb\\'" . coffee-mode))
+
+(add-to-list 'auto-mode-alist
+             '("\\.jsx\\'" . web-mode))
