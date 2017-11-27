@@ -5,6 +5,7 @@
 (depends-on "ace-window")
 (depends-on "ack")
 (depends-on "bundler")
+(depends-on "bm")
 (depends-on "cask")
 (depends-on "coffee-mode")
 (depends-on "company")
