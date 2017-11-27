@@ -10,6 +10,6 @@
 (global-set-key (kbd "C-c w j") 'copy-as-format-jira)
 
 ;; dumb-jump's default except for dumb-jump-back
-(global-set-key (kbd "C-M-g") 'dumb-jump-go)
-(global-set-key (kbd "C-M-[") 'dumb-jump-back)
-(global-set-key (kbd "C-M-q") 'dumb-jump-quick-look)
+(define-key prog-mode-map (kbd "C-M-g") 'dumb-jump-go)
+(define-key prog-mode-map (kbd "C-M-[") 'dumb-jump-back)
+(define-key prog-mode-map (kbd "C-M-q") 'dumb-jump-quick-look)
