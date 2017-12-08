@@ -19,6 +19,7 @@
 (depends-on "emmet-mode")
 (depends-on "emojify")
 (depends-on "engine-mode")
+(depends-on "es-mode")
 (depends-on "exec-path-from-shell")
 (depends-on "fireplace")
 (depends-on "flycheck")
