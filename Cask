@@ -21,6 +21,7 @@
 (depends-on "engine-mode")
 (depends-on "es-mode")
 (depends-on "exec-path-from-shell")
+(depends-on "expand-region")
 (depends-on "fireplace")
 (depends-on "flycheck")
 (depends-on "fullframe")
