@@ -27,6 +27,7 @@
 (depends-on "fullframe")
 (depends-on "gitconfig-mode")
 (depends-on "gist")
+(depends-on "git-gutter")
 (depends-on "git-link")
 (depends-on "git-timemachine")
 (depends-on "github-notifier")

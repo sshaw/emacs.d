@@ -11,3 +11,12 @@
 (global-set-key (kbd "C-c g l") 'git-link)
 (global-set-key (kbd "C-c g c") 'git-link-commit)
 (global-set-key (kbd "C-c g h") 'git-link-homepage)
+
+(global-git-gutter-mode t)
+
+(global-set-key (kbd "M-p") 'git-gutter:previous-hunk)
+(global-set-key (kbd "M-n") 'git-gutter:next-hunk)
+(global-set-key (kbd "M-s") 'git-gutter:stage-hunk)
+(global-set-key (kbd "M-u") 'git-gutter:revert-hunk)
+
+(setq git-gutter:hide-gutter t)
