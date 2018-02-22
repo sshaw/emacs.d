@@ -16,7 +16,7 @@
 
 (global-set-key (kbd "M-p") 'git-gutter:previous-hunk)
 (global-set-key (kbd "M-n") 'git-gutter:next-hunk)
-(global-set-key (kbd "M-s") 'git-gutter:stage-hunk)
-(global-set-key (kbd "M-u") 'git-gutter:revert-hunk)
+(global-set-key (kbd "C-c g s") 'git-gutter:stage-hunk)
+(global-set-key (kbd "C-c g r") 'git-gutter:revert-hunk)
 
 (setq git-gutter:hide-gutter t)
