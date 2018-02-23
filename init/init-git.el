@@ -19,4 +19,5 @@
 (global-set-key (kbd "C-c g s") 'git-gutter:stage-hunk)
 (global-set-key (kbd "C-c g r") 'git-gutter:revert-hunk)
 
-(setq git-gutter:hide-gutter t)
+(setq git-gutter:hide-gutter t
+      git-gutter:ask-p nil)
