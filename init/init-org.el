@@ -9,6 +9,8 @@
 (setq org-export-with-toc nil)
 (setq org-export-with-section-numbers nil)
 
+(setq org-todo-keywords '((sequence "TODO" "IN PROGRESS" "BLOCKED" "DONE")))
+
 (setq org-confirm-babel-evaluate nil)
 (setq org-capture-templates
       '(("t" "Todo" entry (file "") "* TODO %?\n  %i\n  %a")))
