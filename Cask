@@ -40,6 +40,7 @@
 (depends-on "handlebars-mode")
 (depends-on "httprepl")
 (depends-on "ignoramus")
+(depends-on "issue-link" :git "https://github.com/sshaw/issue-link.git")
 (depends-on "inf-ruby")
 (depends-on "know-your-http-well")
 (depends-on "less-css-mode")
