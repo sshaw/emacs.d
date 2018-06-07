@@ -1,3 +1,6 @@
-(define-abbrev-table 'global-abbrev-table '(("gh" "https://github.com/sshaw")
+(define-abbrev-table 'global-abbrev-table '(("ghss" "https://github.com/sshaw")
+                                            ("ghsc" "https://github.com/ScreenStaring")
+                                            ("scdc" "http://screenstaring.com")
 					    ("hib" "hub")))
-(define-abbrev-table 'ruby-mode-abbrev-table '(("destory" "destroy")))
+(define-abbrev-table 'ruby-mode-abbrev-table '(("destory" "destroy")
+                                               ("arim" "ActiveRecord::IrreversibleMigration")))
