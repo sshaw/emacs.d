@@ -8,13 +8,17 @@ With a prefix argument prompt for the format."
   (insert (format-time-string format)))
 
 
-(defun scratch (&optional ext)
-  "Create a \"scratch\" file with the extension given by EXT.
+(defun scratch (extension &optional other-window)
+  "Create a \"scratch\" file with the extension given by EXTENSION.
 The file will be created in `temporary-file-directory' and have the
-basename \"scratch\"."
-  (interactive "MExtension: ")
-  (find-file (concat temporary-file-directory "scratch"
-		     (if (string-match "\\w" ext) (concat "." ext)))))
+basename \"scratch\".
+If `OTHER-WINDOW' is non-nil, open the file using `find-file-other-window'."
+  (interactive "MExtension: \nP")
+  (let ((path (concat temporary-file-directory "scratch"
+                      (if (string-match "\\w" extension) (concat "." extension)))))
+    (if other-window
+        (find-file-other-window path)
+      (find-file path))))
 
 (defun decode-url (url)
   "Decode a URL and add it to the kill ring."
