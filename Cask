@@ -47,6 +47,7 @@
 (depends-on "lorem-ipsum")
 (depends-on "magit")
 (depends-on "markdown-mode")
+(depends-on "nginx-mode")
 (depends-on "mmm-mode")
 (depends-on "nameless")
 (depends-on "ox-gfm")
