@@ -51,6 +51,7 @@
 (depends-on "mmm-mode")
 (depends-on "nameless")
 (depends-on "ox-gfm")
+(depends-on "ox-jira")
 (depends-on "ox-reveal")
 (depends-on "php-mode")
 (depends-on "rainbow-delimiters")

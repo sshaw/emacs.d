@@ -1,6 +1,7 @@
 (eval-after-load "org"
   '(progn
      (require 'ox-gfm)
+     (require 'ox-jira)
      (require 'ox-reveal)))
 
 (global-set-key (kbd "C-c c") 'org-capture)
