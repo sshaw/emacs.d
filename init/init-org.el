@@ -16,6 +16,6 @@
 (setq org-capture-templates
       '(("t" "Todo" entry (file "") "* TODO %?\n  %i\n  %a")))
 
-(setq org-reveal-root "http://cdn.jsdelivr.net/reveal.js/3.0.0/")
+(setq org-reveal-root "https://cdn.jsdelivr.net/npm/reveal.js@3.7.0")
 
 (add-hook 'org-mode-hook 'issue-link-mode)
