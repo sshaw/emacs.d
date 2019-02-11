@@ -38,6 +38,7 @@
 (depends-on "hlinum")
 (depends-on "haml-mode")
 (depends-on "handlebars-mode")
+(depends-on "htmlize")                  ; Needed by ox-reveal for highlighting
 (depends-on "httprepl")
 (depends-on "ignoramus")
 (depends-on "issue-link" :git "https://github.com/sshaw/issue-link.git")
