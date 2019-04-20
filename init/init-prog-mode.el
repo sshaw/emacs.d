@@ -9,6 +9,7 @@
 (global-set-key (kbd "C-c w s") 'copy-as-format-slack)
 (global-set-key (kbd "C-c w g") 'copy-as-format-github)
 (global-set-key (kbd "C-c w j") 'copy-as-format-jira)
+(global-set-key (kbd "C-c w m") 'copy-as-format-markdown)
 
 ;; dumb-jump's default except for dumb-jump-back
 (define-key prog-mode-map (kbd "C-M-g") 'dumb-jump-go)
