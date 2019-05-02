@@ -29,6 +29,7 @@
 (put 'downcase-region 'disabled nil)
 
 (transient-mark-mode t)
+(delete-selection-mode 1)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
