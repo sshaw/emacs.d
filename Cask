@@ -51,6 +51,7 @@
 (depends-on "nginx-mode")
 (depends-on "mmm-mode")
 (depends-on "nameless")
+(depends-on "org-clock-csv")
 (depends-on "ox-gfm")
 (depends-on "ox-jira")
 (depends-on "ox-reveal")
