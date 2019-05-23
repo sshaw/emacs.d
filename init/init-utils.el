@@ -27,3 +27,12 @@ If `OTHER-WINDOW' is non-nil, open the file using `find-file-other-window'."
     (let ((decoded (url-unhex-string url)))
       (kill-new decoded)
       (message decoded))))
+
+(defun kill-variable-value (variable)
+  "Add the value of VARIABLE to the kill ring if non-nil.
+VARIABLE must have been defined with `defcustom'."
+  (interactive "vVariable: ")
+  (let ((value (symbol-value variable)))
+    (when value
+      (kill-new (format "%S" value)))
+    (message "%S" value)))
