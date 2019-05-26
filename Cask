@@ -4,6 +4,7 @@
 (depends-on "ace-jump-mode")
 (depends-on "ace-window")
 (depends-on "ack")
+(depends-on "anzu")
 (depends-on "bundler")
 (depends-on "build-status")
 (depends-on "bm")

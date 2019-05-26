@@ -7,3 +7,5 @@
 
 (setq ffap-require-prefix t)
 (ffap-bindings)
+
+(global-anzu-mode +1)
