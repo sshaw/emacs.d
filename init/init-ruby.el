@@ -11,7 +11,7 @@
      (add-to-list 'grep-files-aliases
 		  '("rhtm" . "*.erb *.haml *.slim"))
      (add-to-list 'grep-files-aliases
-		  '("rhtmjs" . "*.erb *.haml *.slim *.js *.js.* *.jsx"))))
+		  '("rhtmjs" . "*.erb *.haml *.slim *.js *.js.* *.jsx *.coffee"))))
 
 (add-hook 'ruby-mode-hook
           (lambda ()
