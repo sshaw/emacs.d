@@ -11,6 +11,7 @@
 (global-set-key (kbd "C-c g l") 'git-link)
 (global-set-key (kbd "C-c g c") 'git-link-commit)
 (global-set-key (kbd "C-c g h") 'git-link-homepage)
+(setq git-link-use-commit t)
 
 (global-git-gutter-mode t)
 
