@@ -3,4 +3,5 @@
                                             ("scdc" "http://screenstaring.com")
 					    ("hib" "hub")))
 (define-abbrev-table 'ruby-mode-abbrev-table '(("destory" "destroy")
-                                               ("arim" "ActiveRecord::IrreversibleMigration")))
+                                               ("arim" "ActiveRecord::IrreversibleMigration")
+                                               ("fsl" "# frozen_string_literal: true")))
