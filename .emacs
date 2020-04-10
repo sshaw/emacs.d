@@ -11,6 +11,13 @@
 (require 'ignoramus)
 (ignoramus-setup)
 
+(require 'diminish)
+(diminish 'anzu-mode)
+(diminish 'eldoc-mode)
+(diminish 'git-gutter-mode)
+(diminish 'abbrev-mode)
+(diminish 'yas-minor-mode)
+
 (dolist (path (directory-files "~/.emacs.d/init" t "\\.elc?\\'"))
   (load-file path))
 

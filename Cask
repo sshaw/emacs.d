@@ -14,6 +14,7 @@
 (depends-on "copy-as-format")
 (depends-on "csharp-mode")
 (depends-on "csv-nav")
+(depends-on "diminish")
 (depends-on "dumb-jump")
 (depends-on "dockerfile-mode")
 ;;(depends-on "emacs-rails" :git "https://github.com/remvee/emacs-rails.git")
