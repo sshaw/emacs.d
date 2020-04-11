@@ -76,6 +76,7 @@
 (depends-on "switch-window")
 (depends-on "try")
 (depends-on "tss")
+(depends-on "typescript-mode")
 ;; After 10.4 tabs are used if indent-tabs-mode's global value is t
 (depends-on "web-mode" :git "https://github.com/fxbois/web-mode.git" :ref "v10.4")
 (depends-on "writegood-mode")
