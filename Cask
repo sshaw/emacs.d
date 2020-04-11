@@ -82,4 +82,3 @@
 (depends-on "yaml-mode")
 (depends-on "yasnippet")
 (depends-on "yasnippet-snippets")
-(depends-on "zone-nyan")
