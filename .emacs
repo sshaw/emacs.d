@@ -18,6 +18,8 @@
 (diminish 'abbrev-mode)
 (diminish 'yas-minor-mode)
 
+(persistent-scratch-setup-default)
+
 (dolist (path (directory-files "~/.emacs.d/init" t "\\.elc?\\'"))
   (load-file path))
 
