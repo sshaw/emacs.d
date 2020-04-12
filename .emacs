@@ -7,7 +7,6 @@
 	   "/usr/local/share/emacs/site-lisp/cask/cask.el"))
 (cask-initialize)
 
-(require 'dired-x)
 (require 'ignoramus)
 (ignoramus-setup)
 
