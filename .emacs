@@ -16,8 +16,10 @@
 (diminish 'git-gutter-mode)
 (diminish 'abbrev-mode)
 (diminish 'yas-minor-mode)
+(dolist (mode beginend-modes) (diminish (cdr mode)))
 
 (persistent-scratch-setup-default)
+(beginend-global-mode)
 
 (dolist (path (directory-files "~/.emacs.d/init" t "\\.elc?\\'"))
   (load-file path))
