@@ -23,7 +23,7 @@
 	      (add-to-list 'flycheck-disabled-checkers 'ruby-rubocop))))
 
 (add-to-list 'auto-mode-alist
-	     '("\\.\\(?:cap\\|gemspec\\|irbrc\\|gemrc\\|pryrc\\|rake\\|rb\\|ru\\|thor\\)\\'" . ruby-mode))
+             '("\\.\\(?:cap\\|csv\\.shaper\\|gemspec\\|irbrc\\|gemrc\\|pryrc\\|rake\\|rb\\|ru\\|thor\\)\\'" . ruby-mode))
 
 (add-to-list 'auto-mode-alist
 	     '("\\(?:Brewfile\\|Capfile\\|Gemfile\\(?:\\.[a-zA-Z0-9._-]+\\)?\\|[rR]akefile\\)\\'"   . ruby-mode))
