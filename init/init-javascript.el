@@ -10,4 +10,4 @@
 	     '("\\.coffee\\.erb\\'" . coffee-mode))
 
 (add-to-list 'auto-mode-alist
-             '("\\.jsx\\'" . web-mode))
+             '("\\.\\(jsx\\|ejs\\)\\'" . web-mode))
