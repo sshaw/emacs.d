@@ -39,6 +39,7 @@
 (depends-on "google-maps")
 (depends-on "google-translate")
 (depends-on "groovy-mode")
+(depends-on "graphql-mode")
 (depends-on "hlinum")
 (depends-on "haml-mode")
 (depends-on "handlebars-mode")
