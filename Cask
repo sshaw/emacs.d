@@ -60,6 +60,7 @@
 (depends-on "ox-gfm")
 (depends-on "ox-jira")
 (depends-on "ox-reveal")
+(depends-on "prettier-js")
 (depends-on "persistent-scratch")
 (depends-on "php-mode")
 (depends-on "rainbow-delimiters")
